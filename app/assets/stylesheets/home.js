@@ -1,21 +1,84 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  'row': {
+  'section': {
+    'marginLeft': [{ 'unit': 'string', 'value': 'auto' }],
+    'marginRight': [{ 'unit': 'string', 'value': 'auto' }]
+  },
+  'section h4': {
+    'marginBottom': [{ 'unit': 'px', 'value': 80 }],
+    'marginLeft': [{ 'unit': 'px', 'value': 200 }]
+  },
+  'section icons': {
+    'margin': [{ 'unit': 'em', 'value': 0 }, { 'unit': 'em', 'value': 30 }, { 'unit': 'em', 'value': 0 }, { 'unit': 'em', 'value': 30 }],
+    'display': 'flex',
+    'MsFlexPack': 'justify',
+    'justifyContent': 'space-between',
+    'counterReset': 'step',
+    'textAlign': 'center',
+    'marginLeft': [{ 'unit': 'px', 'value': 30 }],
+    'marginRight': [{ 'unit': 'px', 'value': 30 }]
+  },
+  'section icons icon': {
+    'display': 'block',
+    'position': 'relative',
+    'width': [{ 'unit': 'px', 'value': 270 }],
+    'height': [{ 'unit': 'px', 'value': 270 }],
+    'padding': [{ 'unit': 'px', 'value': 25 }, { 'unit': 'px', 'value': 25 }, { 'unit': 'px', 'value': 25 }, { 'unit': 'px', 'value': 25 }],
+    'paddingTop': [{ 'unit': 'px', 'value': 70 }],
+    'marginBottom': [{ 'unit': 'px', 'value': 16 }],
+    'borderRadius': '4px',
+    'color': '#00386C',
+    'fontSize': [{ 'unit': 'px', 'value': 16 }],
+    'fontWeight': '500',
+    'lineHeight': [{ 'unit': 'px', 'value': 27 }],
+    'letterSpacing': [{ 'unit': 'px', 'value': 0 }],
+    'textDecoration': 'none',
+    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#f2f4f7' }],
+    'borderRadius': '5px'
+  },
+  'section icons icon icons:hover icon-text': {
+    'color': '#49B882',
+    'transition': '300ms',
+    'textDecoration': 'bold'
+  },
+  'section icons icon icons:hover': {
+    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#49B882' }]
+  },
+  'section icons icon icon-image': {
+    'display': 'block',
+    'width': [{ 'unit': 'px', 'value': 84 }],
+    'height': [{ 'unit': 'px', 'value': 84 }],
+    'margin': [{ 'unit': 'string', 'value': 'auto' }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'string', 'value': 'auto' }, { 'unit': 'string', 'value': 'auto' }],
+    'marginBottom': [{ 'unit': 'px', 'value': 32 }]
+  },
+  'top-bar': {
+    'background': '#fff',
+    'boxShadow': [{ 'unit': 'px', 'value': 5 }, { 'unit': 'px', 'value': 8 }, { 'unit': 'px', 'value': 80 }, { 'unit': 'string', 'value': '#f2f4f7' }],
+    'marginBottom': [{ 'unit': 'px', 'value': 55 }],
+    'zIndex': '10'
+  },
+  'top-bar row': {
     'marginRight': [{ 'unit': 'px', 'value': 0 }],
     'marginLeft': [{ 'unit': 'px', 'value': 0 }],
     'maxWidth': [{ 'unit': 'rem', 'value': 200 }]
   },
-  'logo': {
-    'height': [{ 'unit': 'em', 'value': 5.4 }],
-    'width': [{ 'unit': 'em', 'value': 16 }]
+  'top-bar row div logo': {
+    'height': [{ 'unit': 'px', 'value': 50 }],
+    'width': [{ 'unit': 'px', 'value': 140 }],
+    'backgroundSize': 'contain',
+    'backgroundRepeat': 'no-repeat',
+    'backgroundPosition': 'center'
   },
-  'icons': {
-    'margin': [{ 'unit': 'em', 'value': 0 }, { 'unit': 'em', 'value': 30 }, { 'unit': 'em', 'value': 0 }, { 'unit': 'em', 'value': 30 }]
+  'top-bar row div h6 a strong': {
+    'fontSize': [{ 'unit': 'px', 'value': 14 }]
   },
-  'icon': {
-    'height': [{ 'unit': 'em', 'value': 10 }],
-    'width': [{ 'unit': 'em', 'value': 10 }]
+  'want-to-learn-more': {
+    'marginBottom': [{ 'unit': 'px', 'value': 128 }],
+    'color': '#00386C !important'
+  },
+  'instructions': {
+    'color': '#425E78'
   },
   'expand': {
     'borderRadius': '20px'
@@ -26,9 +89,5 @@ export default StyleSheet.create({
   'bottom': {
     'marginTop': [{ 'unit': 'em', 'value': 10 }],
     'textAlign': 'center'
-  },
-  'want_to_learn_more': {
-    'marginBottom': [{ 'unit': 'px', 'value': 128 }],
-    'color': '#00386C'
   }
 });
