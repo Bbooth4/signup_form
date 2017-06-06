@@ -37,13 +37,14 @@ export default StyleSheet.create({
     'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#f2f4f7' }],
     'borderRadius': '5px'
   },
-  'section icons icon icons:hover icon-text': {
+  'section icons icon icon:hover > icon-text': {
+    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#49B882' }, { 'unit': 'string', 'value': '!important' }],
+    'color': '#49B882'
+  },
+  'section icons icon icon-text:hover': {
     'color': '#49B882',
     'transition': '300ms',
     'textDecoration': 'bold'
-  },
-  'section icons icon icons:hover': {
-    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#49B882' }]
   },
   'section icons icon icon-image': {
     'display': 'block',

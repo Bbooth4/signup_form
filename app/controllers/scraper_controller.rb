@@ -4,7 +4,7 @@ class ScraperController < ApplicationController
     mechanize = Mechanize.new
 
     meetup = mechanize.get('https://www.meetup.com/NYC-Social/members/')
-    $max = 2
+    $max = 25
     $counter = 0
     $link_to_click = 2
 
@@ -16,7 +16,7 @@ class ScraperController < ApplicationController
 
     while $counter <= $max do
       @meetup_names.push(meetup.css('.memName').text.strip)
-      meetup.link_with(:text => '2').click
+      meetup = meetup.link_with(:text => $link_to_click.to_s).click
       # meetup.css('.nav-pageitem').text.strip.click
       $link_to_click += 1
       $counter += 1

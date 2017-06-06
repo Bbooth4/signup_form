@@ -35,14 +35,15 @@ section {
       text-decoration: none;
       border: 1px solid #f2f4f7;
       border-radius: 5px;
-      .icons:hover .icon-text {
-          color: #49B882;
-          transition: 300ms;
-          text-decoration: bold;
-        }
-      .icons:hover {
-        border: 1px solid #49B882;
+    .icon:hover > .icon-text {
+      border: 1px solid #49B882 !important;
+      color: #49B882; 
       }
+      .icon-text:hover {
+        color: #49B882; 
+        transition: 300ms;
+        text-decoration: bold;
+        }
       .icon-image {
         display: block;
         width: 84px;
