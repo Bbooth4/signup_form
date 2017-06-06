@@ -1,8 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
-  autocomplete :user, :email
-
   # GET /users
   # GET /users.json
   def index
@@ -28,10 +26,14 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
 
-    if @user.save
-      redirect_to '/'
-    else
-      redirect_to '/signup'
+    respond_to do |format|
+      if @user.save
+        format.html { redirect_to @user, notice: 'User was successfully created.' }
+        format.json { render :show, status: :created, location: @user }
+      else
+        format.html { render :new }
+        format.json { render json: @user.errors, status: :unprocessable_entity }
+      end
     end
   end
 
@@ -67,8 +69,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:email)
+      params.require(:user).permit(:email, :title, :company, :company_size)
     end
 end
-
-# :full_name, :company_name, :company_size, :phone_number
