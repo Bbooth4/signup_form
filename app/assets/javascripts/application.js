@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
+//= require twitter/typeahead.min
 //= require autocomplete-rails
 //= require foundation
 //= require turbolinks

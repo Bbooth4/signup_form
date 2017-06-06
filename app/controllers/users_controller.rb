@@ -1,7 +1,12 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
-  autocomplete :user, :email
+  # autocomplete :user, :email
+
+  def load_suggestions
+    @suggestions = MyModel.select(:name)
+    render json: @suggestions
+  end
 
   # GET /users
   # GET /users.json
@@ -67,7 +72,7 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:email)
+      params.permit(:email, :full_name, :company_name, :company_size, :phone_number)
     end
 end
 

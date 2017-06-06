@@ -11,23 +11,30 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :email %><br>
-    <!--<%= f.text_field :email %>-->
-    <%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>
-  </div>
-  <% if user_autocomplete_brand_name_path %>
-    <%= f.label :full_name %><br>
-    <%= f.text_field :full_name %>
+  <% if User.exists?(:email) %>
+    <div class="field">
+      <%= f.label :email %><br>
+      <!--<%= f.text_field :email %>-->
+      <%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>
+    </div>
+  <% else %>
+    <div class="field">
+      <%= f.label :email %><br>
+      <!--<%= f.text_field :email %>-->
+      <%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>
 
-    <%= f.label :company_name %><br>
-    <%= f.text_field :company_name %>
+      <%= f.label :full_name %><br>
+      <%= f.text_field :full_name %>
 
-    <%= f.label :company_size %><br>
-    <%= f.text_field :company_size %>
+      <%= f.label :company_name %><br>
+      <%= f.text_field :company_name %>
 
-    <%= f.label :phone_number %><br>
-    <%= f.text_field :phone_number %>
+      <%= f.label :company_size %><br>
+      <%= f.text_field :company_size %>
+
+      <%= f.label :phone_number %><br>
+      <%= f.text_field :phone_number %>
+    </div>
   <% end %>
   <div class="actions">
     <%= f.submit %>
