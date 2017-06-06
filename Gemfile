@@ -24,6 +24,8 @@ gem 'twitter-typeahead-rails'
 
 gem 'mechanize', '~> 2.7', '>= 2.7.5'
 
+gem 'rubysl-open-uri'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

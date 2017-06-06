@@ -131,6 +131,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (12.0.0)
     rdoc (4.3.0)
+    rubysl-open-uri (2.0.0)
     sass (3.4.24)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -192,6 +193,7 @@ DEPENDENCIES
   mechanize (~> 2.7, >= 2.7.5)
   rails (= 4.2.6)
   rails3-jquery-autocomplete
+  rubysl-open-uri
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
