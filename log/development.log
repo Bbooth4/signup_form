@@ -5069,3 +5069,1072 @@ ActionController::RoutingError (No route matches [GET] "/images/logo.png"):
   Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
   Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
   Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (53.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:15:13 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 129ms (Views: 127.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:15:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:18:11 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-d7925d5c9ad233c04ff4ec47730ae83701d46b920f30e4f469146d3456d1c99b.css?body=1" for 127.0.0.1 at 2017-06-05 19:18:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:20:48 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 144ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-4dd3abfd81fbb3439f53235ac0954374b5869284fcee4ac91c6a8242b90034e6.css?body=1" for 127.0.0.1 at 2017-06-05 19:20:48 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:21:12 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 124ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-ce2b1b0d5df58ca78730e2d3eb2d9c8846732245f24a6f0d174a8823b4d11523.css?body=1" for 127.0.0.1 at 2017-06-05 19:21:12 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:22:19 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (1.4ms)
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div class="small-1 columns">
+                     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div class="small-1 columns">
+                               ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:9: syntax error, unexpected '<', expecting ')'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:11: unknown regexp option - a
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:11: syntax error, unexpected '<'
+      <p><a href="#">Pricing</a></p>
+                                 ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:12: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:13: syntax error, unexpected '<'
+    <div class="small-1 columns">
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:14: syntax error, unexpected '<'
+      <p><a href="#">For Developers</a></p>
+       ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:14: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+      <p><a href="#">For Developers</a></p>
+                                   ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:14: unknown regexp option - p
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:15: syntax error, unexpected '<'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:17: unknown regexp option - a
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:17: syntax error, unexpected '<'
+      <p><a href="#">For Businesses</a></p>
+                                        ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:18: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:20: syntax error, unexpected '<'
+    <div class="small-1 small-offset-2 columns">
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:21: syntax error, unexpected '<'
+      <p><a href="#">Company</a></p>
+       ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:21: unknown regexp option - p
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:22: syntax error, unexpected '<'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:24: unknown regexp option - a
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:24: syntax error, unexpected '<'
+      <p><a href="#">Log In</a></p>
+                                ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:25: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:26: syntax error, unexpected '<'
+    <div class="small-1 columns">
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:27: syntax error, unexpected '<'
+      <p><a href="#">Sign Up</a></p>
+       ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:27: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+      <p><a href="#">Sign Up</a></p>
+                            ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:27: unknown regexp option - p
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:28: syntax error, unexpected '<'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:30: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:31: syntax error, unexpected '<'
+</nav>
+ ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:31: unterminated regexp meets end of file):
+  app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/home/_navbar.html.erb:9: syntax error, unexpected '<', expecting ')'
+  app/views/home/_navbar.html.erb:11: unknown regexp option - a
+  app/views/home/_navbar.html.erb:11: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:12: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:13: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:14: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:14: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/home/_navbar.html.erb:14: unknown regexp option - p
+  app/views/home/_navbar.html.erb:15: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:17: unknown regexp option - a
+  app/views/home/_navbar.html.erb:17: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:18: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:20: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:21: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:21: unknown regexp option - p
+  app/views/home/_navbar.html.erb:22: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:24: unknown regexp option - a
+  app/views/home/_navbar.html.erb:24: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:25: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:26: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:27: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:27: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/home/_navbar.html.erb:27: unknown regexp option - p
+  app/views/home/_navbar.html.erb:28: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:30: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:31: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:31: unterminated regexp meets end of file
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2504908137038877313_70233759483760'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.8ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:22:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (1.3ms)
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div class="small-1 columns">
+                     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+    <div class="small-1 columns">
+                               ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:9: syntax error, unexpected '<', expecting ')'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:11: unknown regexp option - a
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:11: syntax error, unexpected '<'
+      <p><a href="#">Pricing</a></p>
+                                 ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:12: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:13: syntax error, unexpected '<'
+    <div class="small-1 columns">
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:14: syntax error, unexpected '<'
+      <p><a href="#">For Developers</a></p>
+       ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:14: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+      <p><a href="#">For Developers</a></p>
+                                   ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:14: unknown regexp option - p
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:15: syntax error, unexpected '<'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:17: unknown regexp option - a
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:17: syntax error, unexpected '<'
+      <p><a href="#">For Businesses</a></p>
+                                        ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:18: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:20: syntax error, unexpected '<'
+    <div class="small-1 small-offset-2 columns">
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:21: syntax error, unexpected '<'
+      <p><a href="#">Company</a></p>
+       ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:21: unknown regexp option - p
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:22: syntax error, unexpected '<'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:24: unknown regexp option - a
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:24: syntax error, unexpected '<'
+      <p><a href="#">Log In</a></p>
+                                ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:25: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:26: syntax error, unexpected '<'
+    <div class="small-1 columns">
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:27: syntax error, unexpected '<'
+      <p><a href="#">Sign Up</a></p>
+       ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:27: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+      <p><a href="#">Sign Up</a></p>
+                            ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:27: unknown regexp option - p
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:28: syntax error, unexpected '<'
+    </div>
+     ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:30: unknown regexp options - dv
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:31: syntax error, unexpected '<'
+</nav>
+ ^
+/home/brandon/Websites/signup_form/app/views/home/_navbar.html.erb:31: unterminated regexp meets end of file):
+  app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/home/_navbar.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/home/_navbar.html.erb:9: syntax error, unexpected '<', expecting ')'
+  app/views/home/_navbar.html.erb:11: unknown regexp option - a
+  app/views/home/_navbar.html.erb:11: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:12: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:13: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:14: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:14: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/home/_navbar.html.erb:14: unknown regexp option - p
+  app/views/home/_navbar.html.erb:15: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:17: unknown regexp option - a
+  app/views/home/_navbar.html.erb:17: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:18: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:20: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:21: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:21: unknown regexp option - p
+  app/views/home/_navbar.html.erb:22: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:24: unknown regexp option - a
+  app/views/home/_navbar.html.erb:24: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:25: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:26: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:27: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:27: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+  app/views/home/_navbar.html.erb:27: unknown regexp option - p
+  app/views/home/_navbar.html.erb:28: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:30: unknown regexp options - dv
+  app/views/home/_navbar.html.erb:31: syntax error, unexpected '<'
+  app/views/home/_navbar.html.erb:31: unterminated regexp meets end of file
+  app/views/layouts/application.html.erb:16:in `_app_views_layouts_application_html_erb__2504908137038877313_70233759483760'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:22:53 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (1.2ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2017-06-05 19:22:53 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/logo.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (42.5ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2017-06-05 19:22:55 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/logo.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (24.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (49.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:23:07 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 136ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:23:18 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (1.2ms)
+Completed 200 OK in 132ms (Views: 131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2017-06-05 19:23:18 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/logo.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (55.2ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at 2017-06-05 19:23:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/logo.png"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (59.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:23:26 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:24:47 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 121ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:25:07 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 92ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:26:34 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 101ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:26:45 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-c200d2007d99a5cc1c3e904e6ea44c2dbce3019b7cf9e23d4e62770ab675da12.css?body=1" for 127.0.0.1 at 2017-06-05 19:26:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:26:56 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 129.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-b0516822bb153f62271aaef70c2d72ff22233b933e553d62092514ae866dc74a.css?body=1" for 127.0.0.1 at 2017-06-05 19:26:56 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:27:17 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 146ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-7469c703ead92dc8c4d9c084fd26f1483ca42043af79cf149e35d441e69844cd.css?body=1" for 127.0.0.1 at 2017-06-05 19:27:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:27:25 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 169ms (Views: 167.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-6f7189bca0505f4b19d8681e420a4d3594c35d9e25b2588c254547167d326d54.css?body=1" for 127.0.0.1 at 2017-06-05 19:27:25 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:27:36 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 167ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-d9fb2f6c2c0ea909a79818d2d49bd1e23af254782c1d0244368bd80f85277a52.css?body=1" for 127.0.0.1 at 2017-06-05 19:27:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:28:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 167ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-c155b6cdac6a713de865cea72045e6ee86663d56b6b3f7562329448adaca268e.css?body=1" for 127.0.0.1 at 2017-06-05 19:28:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:29:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 151ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-361d5d480fe55558647ce38d51c312a0c159970d9d397f20a8c4f697d1f346cd.css?body=1" for 127.0.0.1 at 2017-06-05 19:29:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:30:33 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 139ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:33:18 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 116ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:33:30 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:34:12 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:34:39 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:34:46 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 130ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/filename_with_extension" for 127.0.0.1 at 2017-06-05 19:34:46 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/filename_with_extension"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (27.8ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (55.8ms)
+
+
+Started GET "/images/filename_with_extension" for 127.0.0.1 at 2017-06-05 19:34:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/filename_with_extension"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/brandon/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.8ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (55.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:34:55 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:37:30 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 114ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:39:42 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 148ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:41:52 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 129ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:42:36 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-c34b3cb2d2bc1afe1dd85bbc76a8875e46abbcdcf47e843a7831a52a1b85b73f.css?body=1" for 127.0.0.1 at 2017-06-05 19:42:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:42:52 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:43:15 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 128ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-b65b53970dcc39a37e06191280de3656829a1a7a522b3432920e5561f23857a5.css?body=1" for 127.0.0.1 at 2017-06-05 19:43:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:43:30 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 139ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-0682c30f7e1f28fadb8e71994243e67baefe7cc186165a381d77916c6f371bff.css?body=1" for 127.0.0.1 at 2017-06-05 19:43:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:44:47 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  margin: 0em 15em": expected ";", was ".icon {"):
+     6: 
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+     8: 
+     9:     <%= stylesheet_link_tag    "application" %>
+    10:     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    11:     <%= csrf_meta_tags %>
+    12:   </head>
+  app/assets/stylesheets/home.scss:18
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__2504908137038877313_70233759483760'
+
+
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.1ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/brandon/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:45:01 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 142ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-6a92e80ff4b84de235bb94827cecea2529e952a74280b9acdaf51d665443a89e.css?body=1" for 127.0.0.1 at 2017-06-05 19:45:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:45:14 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 132ms (Views: 130.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-1c8ecc40afc74841f543102e1223103bad61ea9fef9e0030301f317733882750.css?body=1" for 127.0.0.1 at 2017-06-05 19:45:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:45:17 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:45:44 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 142ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-a5e28e21a20d87bb5f28340d172de2cef9c5944424e9855bd3f3cc2cc025fb82.css?body=1" for 127.0.0.1 at 2017-06-05 19:45:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:45:51 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 142ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-494c4d38f2c92e072da482cc2a9a64b86c582d422936ee3ee1bd92c8f9f40b7c.css?body=1" for 127.0.0.1 at 2017-06-05 19:45:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:45:59 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 143ms (Views: 142.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-7b0c6228c5fa54e818aaa81cd38afc40f29eb67a34f46d487ee493ef0a430db3.css?body=1" for 127.0.0.1 at 2017-06-05 19:45:59 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:46:07 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:47:05 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 145ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:47:16 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 152ms (Views: 150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:47:28 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 194ms (Views: 193.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-d94fac15c57c43f45f27f3c78e0b03bd65207f6042d5b083754e8bb97179442c.css?body=1" for 127.0.0.1 at 2017-06-05 19:47:28 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:50:19 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 244ms (Views: 243.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:53:45 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 136ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-9cdcc94a5588a9410a92cb2a2b4a19954c9dbf1c1d968bb439ef7c21b937e78c.css?body=1" for 127.0.0.1 at 2017-06-05 19:53:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:53:54 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 138ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-e75b7b8f2cb24249409aeb3c12b616735144c7400399e221d5b90452b782fff2.css?body=1" for 127.0.0.1 at 2017-06-05 19:53:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:54:04 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 111ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:54:11 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 151ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-dd6d9284a8bfcab49c6162f916ef1f82a6e84e4fd73e1d6a8101f9fc0b710320.css?body=1" for 127.0.0.1 at 2017-06-05 19:54:11 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:54:18 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:54:21 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:54:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 142ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-3be6b3d2916b29014e480d9d2f1bd32937cb97ea7a032bb0c812c7b558ad8ae7.css?body=1" for 127.0.0.1 at 2017-06-05 19:54:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:54:45 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 150ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-de21404806bdf382e85e60b61b7d726fff075856d642b7e1008fe08c2c1c98a4.css?body=1" for 127.0.0.1 at 2017-06-05 19:54:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:54:50 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:55:24 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-1c656ad7a649083f4d29da9aa2734950dd761ab6f98cec19ded0667fc9407b46.css?body=1" for 127.0.0.1 at 2017-06-05 19:55:24 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:55:33 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:56:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:58:06 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:58:40 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 153ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-58a8ac76336179a96590eb941c5296c5c276534bddb0126b5d706041fa30ccdb.css?body=1" for 127.0.0.1 at 2017-06-05 19:58:40 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:58:48 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered home/_navbar.html.erb (0.2ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:59:00 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 156ms (Views: 154.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-a57e59bceb66c4c0ee00be90f4d6e7fffcc00e7bbb6ef1c66bc71c906c30cf6b.css?body=1" for 127.0.0.1 at 2017-06-05 19:59:00 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:59:15 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 181ms (Views: 180.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-92ce2e3086b263e0db7b094fb8d2156907e546a5d0d1581791860ac96cccaff0.css?body=1" for 127.0.0.1 at 2017-06-05 19:59:15 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:59:23 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 156ms (Views: 155.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-70d78700f726a9aedd7cf0eb91d153a887a0dca9ebec72ac0976f847f5a72a1c.css?body=1" for 127.0.0.1 at 2017-06-05 19:59:23 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-05 19:59:35 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered home/_navbar.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 106.8ms | ActiveRecord: 0.0ms)
