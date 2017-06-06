@@ -26,5 +26,9 @@ export default StyleSheet.create({
   'bottom': {
     'marginTop': [{ 'unit': 'em', 'value': 10 }],
     'textAlign': 'center'
+  },
+  'want_to_learn_more': {
+    'marginBottom': [{ 'unit': 'px', 'value': 128 }],
+    'color': '#00386C'
   }
 });

@@ -4,15 +4,26 @@ class ScraperController < ApplicationController
     mechanize = Mechanize.new
 
     meetup = mechanize.get('https://www.meetup.com/NYC-Social/members/')
-    $max = 10
+    $max = 2
     $counter = 0
+    $link_to_click = 2
 
-    @names = []
+    @meetup_names = []
+    @meetup_emails = []
+
+    @about_names = []
+    @about_emails = []
 
     while $counter <= $max do
-      @names.push(meetup.at('.memName').text.strip)
+      @meetup_names.push(meetup.css('.memName').text.strip)
+      meetup.link_with(:text => '2').click
+      # meetup.css('.nav-pageitem').text.strip.click
+      $link_to_click += 1
       $counter += 1
     end
+
+    # @meetup_names.push(meetup.css('.memName').text.strip)
+    @meetup_emails.push(meetup.css('.user_email').text.strip)
 
     # uri = File.read("https://www.meetup.com/NYC-Social/members/")
  
