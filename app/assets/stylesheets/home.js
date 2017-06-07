@@ -130,7 +130,7 @@ export default StyleSheet.create({
     'backgroundPosition': 'center'
   },
   'top-bar row small-1': {
-    'marginTop': [{ 'unit': 'px', 'value': 10 }]
+    'marginTop': [{ 'unit': 'px', 'value': 15 }]
   },
   'top-bar row small-1 h6': {
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }]

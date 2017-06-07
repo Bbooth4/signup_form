@@ -2,6 +2,7 @@
 
 one:
   email: MyString
+  password_digest: MyString
   full_name: MyString
   company_name: MyString
   company_size: MyString
@@ -9,6 +10,7 @@ one:
 
 two:
   email: MyString
+  password_digest: MyString
   full_name: MyString
   company_name: MyString
   company_size: MyString
