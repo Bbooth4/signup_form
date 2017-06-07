@@ -43,11 +43,13 @@ export default StyleSheet.create({
   'a:hover': {
     'color': '#54D194'
   },
-  'divfield': {
-    'marginBottom': [{ 'unit': 'px', 'value': 10 }]
-  },
   'divactions': {
-    'marginBottom': [{ 'unit': 'px', 'value': 10 }]
+    'marginBottom': [{ 'unit': 'px', 'value': 10 }],
+    'padding': [{ 'unit': 'em', 'value': 0 }, { 'unit': 'em', 'value': 4 }, { 'unit': 'em', 'value': 0 }, { 'unit': 'em', 'value': 4 }]
+  },
+  'divfield': {
+    'marginBottom': [{ 'unit': 'px', 'value': 10 }],
+    'padding': [{ 'unit': 'em', 'value': 4 }, { 'unit': 'em', 'value': 4 }, { 'unit': 'em', 'value': 4 }, { 'unit': 'em', 'value': 4 }]
   },
   '#notice': {
     'color': 'green'

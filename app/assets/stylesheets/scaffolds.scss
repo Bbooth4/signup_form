@@ -32,8 +32,16 @@ a {
 }
 
 div {
-  &.field, &.actions {
+  &.actions {
     margin-bottom: 10px;
+    padding: 0em 4em;
+  }
+}
+
+div {
+  &.field {
+    margin-bottom: 10px;
+    padding: 4em;
   }
 }
 

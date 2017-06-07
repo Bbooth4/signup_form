@@ -1,3 +1,18 @@
 // Place all the styles related to the scraper controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.form {
+  border: 1px solid lightblue;
+  background: #f2f7ff;
+  border-radius: 5px;
+  margin: 0px 25em;
+  .form-title {
+    border-bottom: 1px solid lightblue;
+    text-align: center;
+    padding: 20px;
+  }
+  .submit {
+    position: relative;
+    bottom: 20px;
+  }
+}
