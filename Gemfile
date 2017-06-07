@@ -34,6 +34,8 @@ gem 'taps', '~> 0.3.24'
 
 gem 'figaro'
 
+gem 'rails_12factor', group: :production
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
