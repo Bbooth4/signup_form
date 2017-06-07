@@ -1,11 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'sessions/new'
-
-  get 'sessions/create'
-
-  get 'sessions/destroy'
-
   get 'scraper/show'
 
   get '/login' => 'sessions#new'
@@ -17,6 +11,8 @@ Rails.application.routes.draw do
   get '/users' => 'users#show'
 
   get 'user/autocomplete_brand_name'
+
+  resources :users
 
   resources :home
 

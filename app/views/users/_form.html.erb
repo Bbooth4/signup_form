@@ -1,5 +1,5 @@
 <section class="form">
-  <%= form_for(@user) do |f| %>
+  <%= form_for:user, url: '/users' do |f| %>
     <% if @user.errors.any? %>
       <div id="error_explanation">
         <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -14,17 +14,17 @@
 
     <h3 class="form-title">Sample Sign Up Form</h3>
 
-    <% if User.exists?(:email) %>
+    <% if User.exists?(:user_id) %>
       <div class="field">
         <%= f.label :email %><br>
-        <!--<%= f.text_field :email %>-->
-        <%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>
+        <%= f.text_field :email %>
+        <!--<%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>-->
       </div>
     <% else %>
       <div class="field">
         <p class='form-tag'>Email</p>
-        <!--<%= f.text_field :email %>-->
-        <%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>
+        <%= f.text_field :email %>
+        <!--<%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>-->
         
         <br />
         <p class='form-tag'>Password</p>

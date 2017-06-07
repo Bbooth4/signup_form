@@ -1,10 +1,10 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: [:edit, :update, :destroy]
 
-  # autocomplete :user, :email
+  autocomplete :user, :email
 
   def load_suggestions
-    @suggestions = MyModel.select(:name)
+    @suggestions = MyModel.select(:email)
     render json: @suggestions
   end
 
@@ -12,11 +12,13 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
+    @user = User.find(session[:id])
   end
 
   # GET /users/1
   # GET /users/1.json
   def show
+    @users = User.all
   end
 
   # GET /users/new
@@ -34,8 +36,8 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
-      session[:user_id] = user.id
-      redirect_to '/users'
+      session[:id] = @user.id
+      redirect_to '/users/:id'
     else
       redirect_to '/signup'
     end
@@ -49,8 +51,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.permit(:email, :full_name, :company_name, :company_size, :phone_number)
+      params.require(:user).permit(:email, :password, :password_confirmation, :full_name, :company_name, :company_size, :phone_number)
     end
 end
-
-# :full_name, :company_name, :company_size, :phone_number
