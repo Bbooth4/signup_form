@@ -14,7 +14,7 @@ export default StyleSheet.create({
     'width': [{ 'unit': '%H', 'value': 0.9 }],
     'marginLeft': [{ 'unit': '%H', 'value': 0.05 }],
     'textAlign': 'center',
-    'padding': [{ 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }, { 'unit': 'px', 'value': 20 }]
+    'padding': [{ 'unit': 'px', 'value': 30 }, { 'unit': 'px', 'value': 30 }, { 'unit': 'px', 'value': 30 }, { 'unit': 'px', 'value': 30 }]
   },
   'form submit': {
     'position': 'relative',
