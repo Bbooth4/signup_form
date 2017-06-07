@@ -16,6 +16,9 @@ export default StyleSheet.create({
     'textAlign': 'center',
     'padding': [{ 'unit': 'px', 'value': 30 }, { 'unit': 'px', 'value': 30 }, { 'unit': 'px', 'value': 30 }, { 'unit': 'px', 'value': 30 }]
   },
+  'form form-title div form-tag': {
+    'color': 'lightblue'
+  },
   'form submit': {
     'position': 'relative',
     'bottom': [{ 'unit': 'px', 'value': 20 }]

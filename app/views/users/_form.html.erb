@@ -22,20 +22,31 @@
       </div>
     <% else %>
       <div class="field">
-        <%= f.label :email %><br>
+        <p class='form-tag'>Email</p>
         <!--<%= f.text_field :email %>-->
         <%=text_field_tag 'email', '', :autocomplete => user_autocomplete_brand_name_path %>
+        
+        <br />
+        <p class='form-tag'>Password</p>
+        <%= f.password_field :password %>
+        <br />
+        <p class='form-tag'>Password Confirmation</p> 
+        <%= f.password_field :password_confirmation %>
 
-        <%= f.label :full_name %><br>
+        <br />
+        <p class='form-tag'>Full Name</p>
         <%= f.text_field :full_name %>
 
-        <%= f.label :company_name %><br>
+        <br />
+        <p class='form-tag'>Company Name</p>
         <%= f.text_field :company_name %>
 
-        <%= f.label :company_size %><br>
+        <br />
+        <p class='form-tag'>Company Size</p>
         <%= f.text_field :company_size %>
 
-        <%= f.label :phone_number %><br>
+        <br />
+        <p class='form-tag'>Phone Number</p>
         <%= f.text_field :phone_number %>
       </div>
     <% end %>
