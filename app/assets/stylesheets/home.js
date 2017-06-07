@@ -18,11 +18,14 @@ export default StyleSheet.create({
     'top': [{ 'unit': 'px', 'value': 103 }],
     'display': 'flex',
     'MsFlexPack': 'justify',
-    'justifyContent': 'space-between',
+    'justifyContent': 'center',
     'counterReset': 'step',
     'textAlign': 'center',
     'marginLeft': [{ 'unit': 'px', 'value': 30 }],
     'marginRight': [{ 'unit': 'px', 'value': 30 }]
+  },
+  'section icons icons:hover': {
+    'borderColor': '#54D194 !important'
   },
   'section icons icon': {
     'display': 'block',
@@ -41,10 +44,20 @@ export default StyleSheet.create({
     'letterSpacing': [{ 'unit': 'px', 'value': 0 }],
     'textDecoration': 'none',
     'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#f2f4f7' }],
-    'borderRadius': '5px'
+    'borderRadius': '5px',
+    'marginLeft': [{ 'unit': 'em', 'value': 2.5 }],
+    'marginRight': [{ 'unit': 'em', 'value': 2.5 }]
   },
-  'section icons icon icon:hover > icon-text': {
-    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#54D194' }, { 'unit': 'string', 'value': '!important' }],
+  'section icons icon right': {
+    'position': 'relative',
+    'left': [{ 'unit': 'px', 'value': 50 }]
+  },
+  'section icons icon icon:hover': {
+    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#f2f4f7' }, { 'unit': 'string', 'value': '!important' }],
+    'color': '#54D194'
+  },
+  'section icons icon icon:focus': {
+    'border': [{ 'unit': 'px', 'value': 1 }, { 'unit': 'string', 'value': 'solid' }, { 'unit': 'string', 'value': '#f2f4f7' }, { 'unit': 'string', 'value': '!important' }],
     'color': '#54D194'
   },
   'section icons icon icon-text:hover': {
@@ -62,7 +75,8 @@ export default StyleSheet.create({
   'section icons icon icon-text': {
     'position': 'relative',
     'bottom': [{ 'unit': 'px', 'value': 40 }],
-    'fontSize': [{ 'unit': 'px', 'value': 18 }]
+    'fontSize': [{ 'unit': 'px', 'value': 18 }],
+    'color': '#00386C'
   },
   'section icons icon icon-text-bottom': {
     'color': '#54D194',
@@ -94,7 +108,6 @@ export default StyleSheet.create({
   'top-bar': {
     'background': '#fff',
     'boxShadow': [{ 'unit': 'px', 'value': 5 }, { 'unit': 'px', 'value': 8 }, { 'unit': 'px', 'value': 80 }, { 'unit': 'string', 'value': '#f2f4f7' }],
-    'padding': [{ 'unit': 'px', 'value': 10 }, { 'unit': 'px', 'value': 10 }, { 'unit': 'px', 'value': 10 }, { 'unit': 'px', 'value': 10 }],
     'marginBottom': [{ 'unit': 'px', 'value': 300 }],
     'position': 'fixed',
     'width': [{ 'unit': '%H', 'value': 1 }],
@@ -106,7 +119,8 @@ export default StyleSheet.create({
     'maxWidth': [{ 'unit': 'rem', 'value': 200 }]
   },
   'top-bar row logo-container': {
-    'paddingLeft': [{ 'unit': 'px', 'value': 4 }]
+    'paddingLeft': [{ 'unit': 'px', 'value': 4 }],
+    'marginTop': [{ 'unit': 'px', 'value': 0 }]
   },
   'top-bar row div logo': {
     'height': [{ 'unit': 'px', 'value': 50 }],
@@ -115,24 +129,30 @@ export default StyleSheet.create({
     'backgroundRepeat': 'no-repeat',
     'backgroundPosition': 'center'
   },
-  'top-bar row div h6 a strong': {
+  'top-bar row small-1': {
+    'marginTop': [{ 'unit': 'px', 'value': 10 }]
+  },
+  'top-bar row small-1 h6': {
+    'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }]
+  },
+  'top-bar row small-1 h6 a strong': {
     'fontSize': [{ 'unit': 'px', 'value': 14 }]
   },
-  'want-to-learn-more': {
+  'bottom': {
+    'marginTop': [{ 'unit': 'em', 'value': 20 }],
+    'textAlign': 'center'
+  },
+  'bottom div want-to-learn-more': {
     'marginBottom': [{ 'unit': 'px', 'value': 128 }],
     'color': '#00386C !important'
   },
-  'expand': {
+  'bottom div expand': {
     'borderRadius': '20px',
     'background': '#54D194'
   },
-  'bottom-button': {
+  'bottom div bottom-button': {
     'color': '#fff',
     'margin': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }],
     'width': [{ 'unit': 'px', 'value': 300 }]
-  },
-  'bottom': {
-    'marginTop': [{ 'unit': 'em', 'value': 10 }],
-    'textAlign': 'center'
   }
 });
